@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>you car</title>
+    <!--esto es para el responcibe en el movil-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/facebook.css">
+
+
+</head>
+
+<body>
+    <!--comenzamos con un atajo header.main-header>.container-->
+
+
+
+
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column--50 ">
+                <h1 class="logo">Your blog of cars</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">999-000-000</span>
+                </p>
+
+            </div>
+            <p class="main-header__contactInfo__address">
+                <span class="icon-location">Medellin Colombia-calle 34</span>
+            </p>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <!-- menu para la pagina-->
+        <div class="container container--flex">
+            <span class="icono-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item">
+                    <a href="/" class="menu__link" menu__link--select>inicio</a>
+                </li>
+                <li class="menu__item">
+                    <a href="nosotros.html" class="menu__link">nosotros</a>
+                </li>
+                <li class="menu__item">
+                    <a href="galeria.html" class="menu__link">galeria</a>
+                </li>
+                <li class="menu__item">
+                    <a href="contactos.html" class="menu__link">contacto</a>
+                </li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter-bird"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+            </div>
+        </div>
+    </nav>
+
+    <!--  section.banner>img.banner__img+.banner -->
+    <section class="banner">
+        <img src="img/banner.jpg" alt="" class="banner__img">
+        <div class="banner__content"> los mejores carros estan aqui</div>
+    </section>
+
+    <main class="main">
+        <section class="group group--color">
+            <div class="container">
+                <h2 class="main__title"> Bienvenido a su pagina favorita de carros </h2>
+                <p class="main__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla provident ipsa inventore, exercitationem distinctio vero illum odit beatae omnis reprehenderit repellendus sint magnam totam voluptate reiciendis modi doloribus at! Itaque,
+                    officiis praesentium!
+                </p>
+            </div>
+        </section>
+        <section class="group main__about__description">
+            <div class="container container--flex"></div>
+
+            <div class="column column--50">
+                <img src="img/car 1.jpg" alt="">
+            </div>
+            <div class="column column--50">
+                <h3 class="column__title">expertise in Industrial solución</h3>
+
+                <p class="column__txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque officia minima, reprehenderit recusandae neque dignissimos libero error harum dolore laboriosam doloremque mollitia numquam, eius, commodi eaque saepe! Officia voluptas temporibus
+                    repellat harum.</p>
+                <!--en esta ocacion la clase btn la comparten todo los botones y esta tiene otra para identificar que es el boton de contacto-->
+                <a href="" class="btn btn--contact">contact</a>
+            </div>
+        </section>
+
+        <section class="group today-special">
+            <h2 class="today-special__title">Especiales de hoy</h2>
+            <!-- .container.container__flex>.column.column--50-25*4>img.today-special__img+.today-special__title+.today-special__price -->
+            <!-- cuando ponemos (>) significa un atajo para llamar un elemento-->
+            <div class="container container__flex">
+                <div class="column column--50-25">
+                    <img src="img/vehiculo1.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">especial del dia 1</div>
+                    <div class="today-special__price">40,000.000</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/vehiculo2.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">especial del dia 2</div>
+                    <div class="today-special__price">$ 60,000,000 </div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/vehiculo3.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">especial del dia 3</div>
+                    <div class="today-special__price">$ 60,000.000</div>
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/vehiculo4.jpg" alt="" class="today-special__img">
+                    <div class="today-special__title">especial del dia 4</div>
+                    <div class="today-special__price">$ 96,000.000</div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="main-footter">
+        <div class="container container--flex"></div>
+        <div class="column column--33">
+            <h2 class="column__title">¿porque visitarnos?</h2>
+            <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ullam sint. Rerum illo cumque quasi, at error fugit nam, facere non ab asperiores harum nesciunt! Ipsam laboriosam quasi tempore totam reprehenderit. Sequi, quidem!</p>
+        </div>
+        <div class="column column--33">
+            <h2 class="column__title">contactanos</h2>
+            <p class="column__txt"> medellin-calle54 </p>
+            <p class="column__txt"> telefono <span class="icon-phone"></span>777-777-777 </p>
+
+            <p class="column__txt"> contacto@youcar.com</p>
+        </div>
+        <div class="column column--33">
+            <h2 class="column__title">sigenos en nuestras redes sociales </h2>
+            <p class="column__txt"><a href="" class="icon-facebook">facebook </a></p>
+            <p class="column__txt"><a href="" class="icon-twitter-bird"> siguenos en twiter</a></p>
+            <p class="column__txt">
+                <a href="" class="icon-youtube"> visita nuestro canal </a></p>
+        </div>
+        <p class="copy">2021 your cars | todo los derechos reservados </p>
+    </footer>
+</body>
+
+</html>
